@@ -32,6 +32,8 @@ kotlin {
                 implementation("io.ktor:ktor-client-core:$ktorVersion")
                 implementation("io.ktor:ktor-client-serialization:$ktorVersion")
                 implementation("com.squareup.sqldelight:runtime:$sqlDelightVersion")
+                implementation("ch.qos.logback:logback-classic:1.2.3")
+                implementation("io.ktor:ktor-client-logging:$ktorVersion")
             }
         }
 
